@@ -469,29 +469,42 @@ body {
 
 .foods-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 5%;
 }
 
 .foods {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   border: 2px solid #008080;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .foods img {
-  max-width: 100px;
-  border-radius: 40%;
-  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0 auto 20px auto;
 }
 
-.foods p {
+.foods p:first-child {
+  text-align: justify;
+  flex-grow: 1;
+  margin-bottom: 15px;
   color: white;
 }
 
 .foods p:last-child {
   font-weight: bold;
+  margin-top: autoi;
 }
 
 /*-----------------HOMETOWN----------------*/
@@ -502,6 +515,13 @@ body {
   text-align: center;
   background-color: #303030;
   padding: 20px;
+}
+
+.landmark-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 header {
@@ -542,10 +562,17 @@ header {
 /*--------------------TOURIST---------------*/
 .tourist-container {
   display: flex;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 5%;
 }
 
 .tourist {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 30px;
   border: 2px solid #008080;
@@ -554,17 +581,41 @@ header {
 }
 
 .tourist img {
-  max-width: 100px;
-  border-radius: 40%;
-  margin-bottom: 20px;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
 }
 
-.tourist p {
+.tourist p:first-child {
+  text-align: justify;
+  flex-grow: 1;
+  margin-bottom: 15px;
   color: white;
+  line-height: 1.4;
 }
 
 .tourist p:last-child {
   font-weight: bold;
+  margin-top: auto;
+}
+
+.city-section img {
+  width: 90%;
+  max-width: 1100px;
+  height: auto;
+  object-fit: cover;
+  margin: 30px auto;
+  display: block;
+}
+
+.city-section p {
+  text-align: justify;
+  max-width: 900px;
+  margin: 20px auto 50px auto;
+  line-height: 1.6;
+  color: white;
 }
 
 /*------------------TRANSITION--------------------*/
