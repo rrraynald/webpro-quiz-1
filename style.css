@@ -515,7 +515,7 @@ body {
 /*-----------------HOMETOWN----------------*/
 .landmark-container {
   width: 100%;
-  max-height: 300px;
+  max-height: 400px;
   margin: 0 auto;
   text-align: center;
   background-color: #303030;
@@ -547,8 +547,8 @@ header {
   position: absolute;
   top: 65%;
   left: 50%;
-  width: 90%;
-  transform: (-50%, -50%);
+  width: 80%;
+  transform: translate(-50%, -50%);
   max-width: 900px;
   z-index: 10;
 }
@@ -593,15 +593,16 @@ header {
   text-align: center;
   padding: 30px;
   border: 2px solid #008080;
-  border-radius: 5px;
+  border-radius: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: visible;
 }
 
 .tourist img {
   width: 200px;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 0;
   margin: 0 auto 20px auto;
 }
 
