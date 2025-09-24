@@ -8,6 +8,7 @@
 body {
   background: #303030;
   color: #ededed;
+  padding-top: 60px;
 }
 
 .header {
@@ -20,7 +21,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
+  background-color: #00808090;
 }
 
 .logo {
@@ -516,12 +518,12 @@ body {
 
 /*-----------------HOMETOWN----------------*/
 .landmark-container {
-  width: 80%;
-  max-height: 450px;
+  width: 100%;
+  max-height: 400px;
   margin: 0 auto;
   text-align: center;
   background-color: #303030;
-  padding: 20px;
+  padding: 0;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -574,6 +576,7 @@ header {
 }
 
 .hometown-container h1 {
+  font-size: 2rem;
   background-color: rgba(30, 30, 30, 0.75);
   padding: 10px 15px;
   display: inline-block;
