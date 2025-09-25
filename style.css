@@ -12,7 +12,7 @@ html {
 body {
   background: #303030;
   color: #ededed;
-  padding-top: 60px;
+  padding-top: 68px;
 }
 
 .header {
@@ -63,8 +63,8 @@ body {
   color: #00e6e6;
   font-weight: 600;
   border: 2px solid #008080;
-  border-radius: 6px;
-  padding: 4px 10px;
+  border-radius: 200px;
+  padding: 6px 10px;
   box-shadow: 0 0 6px #00e6e6, 0 0 12px #00e6e6, 0 0 20px #008080;
   text-shadow: 0 0 5px #00e6e6, 0 0 10px #008080;
 }
@@ -458,7 +458,7 @@ body {
   padding: 4px 6px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #444;
-  border-radius: 15px;
+  border-radius: 50px;
 }
 
 .progress-line {
@@ -534,7 +534,12 @@ body {
 
 .foods-container .foods p:last-child {
   font-weight: bold;
-  margin-top: autoi;
+  margin-top: auto;
+}
+
+.foods-container .foods:hover {
+  border-color: #00cccc;
+  box-shadow: 0 0 15px rgba(0, 204, 204, 0.6);
 }
 
 /*-----------------HOMETOWN----------------*/
@@ -621,7 +626,7 @@ header {
   text-align: center;
   padding: 30px;
   border: 2px solid #008080;
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: visible;
 }
@@ -648,9 +653,14 @@ header {
   margin-top: auto;
 }
 
+.tourist:hover {
+  border-color: #00cccc;
+  box-shadow: 0 0 15px rgba(0, 204, 204, 0.6);
+}
+
 .city-section img {
-  width: 90%;
-  max-width: 1100px;
+  width: 80%;
+  max-width: 700px;
   height: auto;
   object-fit: cover;
   margin: 30px auto;
